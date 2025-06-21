@@ -11,6 +11,9 @@ app.get("/", async (req, res) => {
     <html>
     <head>
       <title>Streaming Demo</title>
+      <style>
+        body { font-size: 40px; display: flex; justify-content: center; align-items: center; height: 100vh; padding: 0; margin: 0; }
+      </style>
     </head>
     <body>
       <div id="root">
