@@ -1,0 +1,58 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #222;
+  background: #fff;
+  font-size: 24px;
+  line-height: 30px;
+  width: 100%;
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+main {
+  padding: 1rem;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+input {
+  margin-right: 0.5rem;
+}
+input:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+p, h1 {
+  margin: 0;
+  padding: 0;
+}
+h1, p {
+  margin-bottom: 1rem;
+}
+button {
+  font-size: 1rem;
+  padding: 0.4rem 1rem;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+nav {
+  font-size: 0.6rem;
+  border-bottom: dotted 1px #999;
+  padding-bottom: 0.6rem;
+  margin-bottom: 1rem;
+}
