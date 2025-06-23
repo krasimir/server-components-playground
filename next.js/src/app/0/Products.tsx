@@ -1,4 +1,4 @@
-import React from "react";
+import React, { use } from "react";
 import ProductsList from "./ProductsList";
 import { getProducts } from "./db";
 

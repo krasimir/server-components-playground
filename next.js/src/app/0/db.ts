@@ -1,5 +1,12 @@
-export async function getProducts() {
-  const response = await fetch("http://localhost:3000/api/products");
-  const data = response.json()
-  return data;
+let cache: any;
+
+export function getProducts() {
+  if (cache) {
+    return cache;
+  }
+  return (cache = new Promise(async (resolve) => {
+    const res = await fetch("http://localhost:3000/api/products");
+    const data = await res.json();
+    resolve(data);
+  }));
 }
